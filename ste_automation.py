@@ -5,7 +5,7 @@ from time import sleep
 usr = input('Enter your username or email id: ')
 pwd = getpass('Enter your password : ')
 
-driver = webdriver.Chrome()
+driver = webdriver.Safari()
 driver.get('https://stesa.inventsys.com.br/10762/item/list')
 
 username_box = driver.find_element_by_name('username_email')
